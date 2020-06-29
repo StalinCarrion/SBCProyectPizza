@@ -1,0 +1,1793 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.pizza.com/ontologies/pizza.owl" ],
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "comments" : {
+      "en" : "A pizza ontology that describes various pizzas based on their toppings."
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "110",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "134",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#VegetarianPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VegetarianPizza"
+    },
+    "intersection" : [ "4" ],
+    "attributes" : [ "intersection" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#TomatoTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TomatoTopping"
+    },
+    "id" : "2",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#JalapenoPepperTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JalapenoPepperTopping"
+    },
+    "id" : "11",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#NamedPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NamedPizza"
+    },
+    "subClasses" : [ "15", "16", "17", "18", "19" ],
+    "id" : "14",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#MushroomTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MushroomTopping"
+    },
+    "id" : "13",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#SohoPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SohoPizza"
+    },
+    "id" : "15",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#BaconTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BaconTopping"
+    },
+    "id" : "42",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#BaconPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BaconPizza"
+    },
+    "id" : "52",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#ValuePartition",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ValuePartition"
+    },
+    "subClasses" : [ "73" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#OliveTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OliveTopping"
+    },
+    "id" : "10",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#TunaTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TunaTopping"
+    },
+    "id" : "49",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpicinessValuePartition"
+    },
+    "union" : [ "68", "76", "77" ],
+    "subClasses" : [ "68", "76", "77" ],
+    "attributes" : [ "union" ],
+    "id" : "73",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#PepperTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PepperTopping"
+    },
+    "subClasses" : [ "81", "11", "82" ],
+    "id" : "1",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#PizzaBase",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaBase"
+    },
+    "subClasses" : [ "86", "87" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#UnclosedPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UnclosedPizza"
+    },
+    "id" : "16",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#DeepPanBase",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeepPanBase"
+    },
+    "id" : "87",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#CheesyPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CheesyPizza"
+    },
+    "intersection" : [ "4" ],
+    "attributes" : [ "intersection" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#CaperTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CaperTopping"
+    },
+    "id" : "24",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#OnionTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OnionTopping"
+    },
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#HighCaloriePizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HighCaloriePizza"
+    },
+    "intersection" : [ "4" ],
+    "attributes" : [ "intersection" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#Mild",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mild"
+    },
+    "id" : "76",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#MozzarellaTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MozzarellaTopping"
+    },
+    "id" : "28",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#SeafoodTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeafoodTopping"
+    },
+    "subClasses" : [ "48", "49", "51" ],
+    "id" : "75",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#PizzaTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaTopping"
+    },
+    "subClasses" : [ "43", "75", "29", "5" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#ProbeInconsistentTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProbeInconsistentTopping"
+    },
+    "id" : "31",
+    "superClasses" : [ "29", "5" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#AmericanHotPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AmericanHotPizza"
+    },
+    "id" : "17",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#MargheritaPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MargheritaPizza"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.pizza.com/ontologies/pizza.owl#ExampleMargherita",
+      "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+      "labels" : {
+        "IRI-based" : "ExampleMargherita"
+      }
+    } ],
+    "id" : "18",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#Hot",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hot"
+    },
+    "id" : "68",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#LowCaloriePizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LowCaloriePizza"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.pizza.com/ontologies/pizza.owl#ExampleMargherita",
+      "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+      "labels" : {
+        "IRI-based" : "ExampleMargherita"
+      }
+    } ],
+    "intersection" : [ "4" ],
+    "attributes" : [ "intersection" ],
+    "id" : "112",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#SalamiTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SalamiTopping"
+    },
+    "id" : "64",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "37",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "110",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#ThinAndCrispyBase",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ThinAndCrispyBase"
+    },
+    "id" : "86",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#SpicyBeefTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpicyBeefTopping"
+    },
+    "id" : "58",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#InterestingPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterestingPizza"
+    },
+    "intersection" : [ "4" ],
+    "attributes" : [ "intersection" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#ParmezanTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ParmezanTopping"
+    },
+    "id" : "66",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#RedPepperTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RedPepperTopping"
+    },
+    "id" : "82",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#Pizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pizza"
+    },
+    "subClasses" : [ "112", "52", "140", "14", "134", "3" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#PepperoniTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PepperoniTopping"
+    },
+    "id" : "60",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#HamTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HamTopping"
+    },
+    "id" : "85",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#GreenPepperTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GreenPepperTopping"
+    },
+    "id" : "81",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#MeatTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MeatTopping"
+    },
+    "subClasses" : [ "42", "85", "60", "58", "64" ],
+    "id" : "43",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#Medium",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium"
+    },
+    "id" : "77",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#NonVegetarianPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonVegetarianPizza"
+    },
+    "intersection" : [ "4" ],
+    "attributes" : [ "intersection" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#SpicyPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpicyPizza"
+    },
+    "intersection" : [ "4" ],
+    "attributes" : [ "intersection" ],
+    "id" : "134",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#PrawnTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrawnTopping"
+    },
+    "id" : "51",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#CheeseTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CheeseTopping"
+    },
+    "subClasses" : [ "66", "28", "31" ],
+    "id" : "29",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#AmericanaPizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AmericanaPizza"
+    },
+    "id" : "19",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#AnchovyTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AnchovyTopping"
+    },
+    "id" : "48",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#Country",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.pizza.com/ontologies/pizza.owl#England",
+      "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+      "labels" : {
+        "IRI-based" : "England"
+      }
+    }, {
+      "iri" : "http://www.pizza.com/ontologies/pizza.owl#Italy",
+      "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+      "labels" : {
+        "IRI-based" : "Italy"
+      }
+    }, {
+      "iri" : "http://www.pizza.com/ontologies/pizza.owl#Germany",
+      "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+      "labels" : {
+        "IRI-based" : "Germany"
+      }
+    }, {
+      "iri" : "http://www.pizza.com/ontologies/pizza.owl#America",
+      "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+      "labels" : {
+        "IRI-based" : "America"
+      }
+    }, {
+      "iri" : "http://www.pizza.com/ontologies/pizza.owl#France",
+      "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+      "labels" : {
+        "IRI-based" : "France"
+      }
+    } ],
+    "id" : "162"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#FourCheesePizza",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FourCheesePizza"
+    },
+    "id" : "140",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#VegetableTopping",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VegetableTopping"
+    },
+    "subClasses" : [ "24", "7", "10", "2", "31", "1", "13" ],
+    "id" : "5",
+    "superClasses" : [ "100" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "6",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "8",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "9",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "12",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "20",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "22",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "23",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "25",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "46",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "50",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "55",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "62",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "71",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "79",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "80",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "83",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "84",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "88",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "89",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "90",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "91",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "92",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "96",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "97",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "98",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "99",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "101",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "102",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "103",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "104",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "116",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "117",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "118",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "119",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "120",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "129",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "130",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "131",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "142",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "143",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "144",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "145",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "146",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "147",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "148",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "149",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "150",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "7",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "9"
+  }, {
+    "range" : "2",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "2",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "1",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "10",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "2",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "1",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "7",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "29",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "29",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "5",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "5",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "5",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#isToppingOf",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "isToppingOf"
+    },
+    "superproperty" : [ "38" ],
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "range" : "5",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "5",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "5",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "7",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "10",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "1",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "49",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "51",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "13",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "49",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "19",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "55"
+  }, {
+    "range" : "43",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "43",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "19",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "19",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "43",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "29",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasSpiciness",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hasSpiciness"
+    },
+    "domain" : "11",
+    "attributes" : [ "functional", "someValues", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#isIngredientOf",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "isIngredientOf"
+    },
+    "domain" : "37",
+    "subproperty" : [ "36", "69" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "18",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "18",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#isBaseOf",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "isBaseOf"
+    },
+    "superproperty" : [ "38" ],
+    "domain" : "74",
+    "attributes" : [ "object" ],
+    "id" : "69"
+  }, {
+    "range" : "77",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "58",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "76",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "76",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "58",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "64",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "58",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  }, {
+    "range" : "64",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "60",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "82",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "82",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "5",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "5",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "11",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "86",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "75",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "43",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "75",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "5",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "14",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "14",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "73",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "72",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasSpiciness",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "hasSpiciness"
+    },
+    "domain" : "110",
+    "attributes" : [ "functional", "object" ],
+    "id" : "109"
+  }, {
+    "range" : "14",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "14",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "14",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "16",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "15",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "15",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "117"
+  }, {
+    "range" : "100",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "15",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "15",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasBase",
+    "inverse" : "69",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "hasBase"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "4",
+    "attributes" : [ "functional", "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "123"
+  }, {
+    "range" : "74",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "100",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "3",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "66",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasCalorificContentValue",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "hasCalorificContentValue"
+    },
+    "domain" : "4",
+    "attributes" : [ "functional", "someValues", "datatype" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasBase",
+    "inverse" : "69",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "hasBase"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "4",
+    "attributes" : [ "functional", "someValues", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "4",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "43",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "range" : "43",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "4",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "4",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "4",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "17",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "17",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "142"
+  }, {
+    "range" : "19",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "15",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "18",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "15",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "15",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "17",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+    "inverse" : "36",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "17",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "100",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "100",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "4",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "100",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "75",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "75",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "100",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "75",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasCountryOfOrigin",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "hasCountryOfOrigin"
+    },
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "159"
+  }, {
+    "range" : "74",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "74",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.pizza.com/ontologies/pizza.owl#hasIngredient",
+    "inverse" : "38",
+    "baseIri" : "http://www.pizza.com/ontologies/pizza.owl",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "37",
+    "subproperty" : [ "121", "123" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "56"
+  }, {
+    "range" : "1",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "73",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "73",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "1",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "1",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  } ]
+}
